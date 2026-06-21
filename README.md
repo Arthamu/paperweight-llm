@@ -1,4 +1,4 @@
-# qwen-laptop-ai
+# Paperweight-llm
 
 Qwen3.6 35B-A3B (vision-capable, 128K context) running at **27.92 tok/s median** on a 2019
 gaming laptop. GTX 1660 Ti, 6 GB VRAM. opencode pointed at it as a local backend. No cloud.
