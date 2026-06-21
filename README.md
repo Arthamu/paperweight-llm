@@ -3,16 +3,23 @@
 Qwen3.6 35B-A3B (vision-capable, 128K context) running at **27.92 tok/s median** on a 2019
 gaming laptop. GTX 1660 Ti, 6 GB VRAM. opencode pointed at it as a local backend. No cloud.
 
-<video src="demo.mp4" controls muted autoplay loop playsinline width="900">
-  <a href="demo.gif"><img src="demo.gif" alt="Qwen3.6 35B-A3B demo" /></a>
-</video>
+![demo](demo.gif)
+
+<sub>Higher-quality version: [`demo.mp4`](demo.mp4) (2.2 MB, 720p · 30 fps).</sub>
+
+<!--
+  After pushing, replace the GIF above with a github.com-native video player by dragging
+  demo.mp4 into a new GitHub issue, copying the auto-generated
+  https://github.com/<user>/<repo>/assets/<id>/... URL, and pasting that URL bare on its own
+  line here. Relative <video src="demo.mp4"> tags do NOT render on GitHub.
+-->
 
 > 1:34 of demo: opencode generating an HTML page → the same model in a chat UI doing live
 > web research via custom MCP tools → `bench.sh` for the receipts.
 
 > **Side note on the chat-UI section:** the `google_search` and `deep_research` tool calls
 > visible in the middle of the demo come from a small MCP server I wrote in a sibling repo —
-> [`local-deep-research`](https://github.com/Arthamu/paperweight-llm/tree/main/local-deep-research) — that gives the local
+> [`deep-research-mcp`](https://github.com/<USER>/deep-research-mcp) — that gives the local
 > model internet access. It plugs into the chat UI through the same `--ui-mcp-proxy`
 > mechanism the coding agent uses: local model, real-time sources, no cloud LLM in the loop.
 
