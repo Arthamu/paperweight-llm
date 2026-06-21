@@ -3,9 +3,9 @@
 Qwen3.6 35B-A3B (vision-capable, 128K context) running at **27.92 tok/s median** on a 2019
 gaming laptop. GTX 1660 Ti, 6 GB VRAM. opencode pointed at it as a local backend. No cloud.
 
-![demo](demo.gif)
+[Demo](https://github.com/user-attachments/assets/6ed49485-1b47-438f-b73f-8d8aa3468427)
 
-<sub>Higher-quality version: [`demo.mp4`](demo.mp4) (2.2 MB, 720p · 30 fps).</sub>
+<sub>Higher-quality version: [`demo.mp4`]() (2.2 MB, 720p · 30 fps).</sub>
 
 <!--
   After pushing, replace the GIF above with a github.com-native video player by dragging
