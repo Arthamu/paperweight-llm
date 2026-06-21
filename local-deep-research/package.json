@@ -1,0 +1,22 @@
+{
+  "name": "local-deep-research",
+  "version": "1.0.0",
+  "description": "MCP server for multi-step web research with local LLM synthesis (llama.cpp)",
+  "type": "module",
+  "bin": {
+    "local-deep-research": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "supergateway": "^3.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "typescript": "^5.8.0"
+  }
+}

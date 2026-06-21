@@ -1,0 +1,13 @@
+.DS_Store
+*.gguf
+*.mov
+*.mp4
+*.log
+build/
+local-deep-research/dist/
+local-deep-research/node_modules/
+__pycache__/
+
+# but keep the README demo
+!demo.mp4
+!demo.gif
