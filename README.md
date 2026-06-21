@@ -12,7 +12,7 @@ gaming laptop. GTX 1660 Ti, 6 GB VRAM. opencode pointed at it as a local backend
 
 > **Side note on the chat-UI section:** the `google_search` and `deep_research` tool calls
 > visible in the middle of the demo come from a small MCP server I wrote in a sibling repo —
-> [`deep-research-mcp`](https://github.com/<USER>/deep-research-mcp) — that gives the local
+> [`local-deep-research`](https://github.com/Arthamu/paperweight-llm/tree/main/local-deep-research) — that gives the local
 > model internet access. It plugs into the chat UI through the same `--ui-mcp-proxy`
 > mechanism the coding agent uses: local model, real-time sources, no cloud LLM in the loop.
 
